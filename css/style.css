@@ -42,6 +42,7 @@ htlm {
     border-radius: 5px;
     margin-right: 2rem;
     transition: all 1s;
+    cursor: pointer;
 }
 /*add hover effect*/
 
@@ -57,8 +58,9 @@ htlm {
     padding-top: 2rem;
 }
 
-.movie-info-container > *;:not(.movie-info-title){
+.movie-info-container > *:not(.movie-info-title){
     opacity: 0;
+    /*for animation*/
     animation: fade-in 3.5s ease-in-out forwards;
     animation-delay: 1s;
 }
