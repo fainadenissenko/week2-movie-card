@@ -78,7 +78,7 @@ htlm {
 }
 
 @keyframes slide-from-top {
-    80% {transform: translateY(20pxx);}
+    80% {transform: translateY(20px);}
     100% {transform: translateY(0);}
 }
 

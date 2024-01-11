@@ -26,14 +26,16 @@ html {
     height: 60vh;
     border-radius: 2rem;
     transition: all 1s;
+    /*animation added*/
+    transform: translateY(0);
+    animation: slide-from-top 1s ease-in-out forwards;
 }
 
-/*added hover effect*/
-
-.movie-poster-container img:hover {
-    transform: scale(1.1);
-    box-shadow: 8px 8px 8px -4px rgba(135, 132, 132, 0.525);
+@keyframes slide-from-top {
+    80% {transform: translateY(20px);}
+    100% {text-replace: translateY(0)}
 }
+
 
 .movie-rating {
     display: inline-block;
@@ -57,21 +59,21 @@ html {
     font-size: 1.2rem;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
+    transform: translateX(-150px);
+    animation: slide-from-left 1.7s ease-in-out forwards;
+}
+
+@keyframes slide-from-left {
+    80% {transform: translateX(20pxx);}
+    100% {transform: translateX(0);}
 }
 
 .movie-info-overview-title {
     text-transform: capitalize;
     letter-spacing: 0.1rem;
     font-weight:bold;
-    transform: translateY(-150px);
-    animation: slide-from-left 3.5s ease-in-out forwards;
 }
 
-@keyframes slide-from-top {
-    80% {transform: translateY(20pxx);}
-    100% {transform: translateY(0);}
-}
-}
 
 .movie-info-actions {
     font-size:1.1rem;
