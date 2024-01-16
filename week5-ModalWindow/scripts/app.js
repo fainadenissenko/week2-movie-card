@@ -11,4 +11,9 @@ moviePoster.addEventListener('click', ()=> {
     console.log('image clicked');
     modal.style.display = 'block';
     modalImage.src = moviePoster.src;
+});
+
+
+closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
 })
