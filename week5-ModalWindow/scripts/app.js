@@ -10,4 +10,5 @@ let modalImage = document.querySelector('movie-poster-modal')
 moviePoster.addEventListener('click', ()=> {
     console.log('image clicked');
     modal.style.display = 'block';
+    modalImage.src = moviePoster.src;
 })

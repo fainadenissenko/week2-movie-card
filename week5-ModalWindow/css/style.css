@@ -30,6 +30,10 @@
     font-size: 2rem;
 }
 
+.movie-poster-modal {
+    width: 300px;
+}
+
 .movie-poster {
     width: 300px;
     cursor: pointer;
