@@ -4,3 +4,5 @@ let moviePoster = document.querySelector('.movie-poster');
 let modal = document.querySelector('#myModal');
 //select close button
 let closeBtn =  document.querySelector('.closeBtn')
+//select modal window image
+let modalImage = document.querySelector('movie-poster-modal')
