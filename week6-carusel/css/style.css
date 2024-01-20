@@ -20,11 +20,18 @@
     width: 100%;
 }
 
-.carousel .carousel__item, 
+.carousel .carousel__item 
 .carousel .carousel__item--hidden {
     display: none;
 }
 
 .carousel .carousel__item--visible {
     display: block;
+}
+
+
+.carousel .carousel__actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
