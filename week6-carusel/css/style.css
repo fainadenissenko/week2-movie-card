@@ -27,8 +27,14 @@
 
 .carousel .carousel__item--visible {
     display: block;
+    animation: fadeIn 1s;
 }
 
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 .carousel .carousel__actions {
     display: flex;
     justify-content: space-between;
